@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
             <p className="text-gray-400">Frontend Developer</p>
           </div>
           <div className="flex space-x-6">
-            <a href="https://github.com/Vasanth-04/My-Projects.git" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
+            <a href="https://portfolio-vasanth.netlify.app" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
               <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
             <a href="https://www.linkedin.com/in/vasanth3256/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
@@ -21,6 +22,12 @@ const Footer = () => {
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
               <FontAwesomeIcon icon={faTwitter} size="lg" />
+            </a>
+            <a href="mailto:your-email@example.com" className="hover:text-indigo-400 transition-colors">
+              <FontAwesomeIcon icon={faEnvelope} size="lg" />
+            </a>
+            <a href="tel:+93446534013" className="hover:text-indigo-400 transition-colors">
+              <FontAwesomeIcon icon={faPhone} size="lg" />
             </a>
           </div>
         </div>

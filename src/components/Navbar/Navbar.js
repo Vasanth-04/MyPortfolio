@@ -45,7 +45,7 @@ const Navbar = ({ isDark, toggleDark }) => {
         <div className="flex justify-between h-16 items-center">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text"
+            className="text-2xl sm:text-4xl tracking-normal sm:tracking-wider font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text"
           >
             Portfolio
           </motion.div>

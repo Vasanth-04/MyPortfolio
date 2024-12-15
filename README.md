@@ -2,6 +2,9 @@
 
 Welcome to my portfolio! This is a collection of my projects and skills that I've built using technologies like React, HTML5, CSS3, JavaScript, and more. Feel free to explore the different sections to learn more about me and my work.
 
+## For reference 
+i have explained some code in right side by commending them 
+
 ## Table of Contents
 1. HOME
 2. ABOUT
@@ -30,7 +33,7 @@ Here are some of the key projects I've worked on:
 ### 1. **Portfolio Website**
 - **Description**: A responsive portfolio website built using React, showcasing my skills, projects, and achievements.
 - **Technologies**: React, TailwindCSS
-- **Link**: [Portfolio Website](#)
+- **Link**: [https://portfolio-vasanth.netlify.app](#)
 
 ### 2. **APPOLO CLONE**
 - **Description**: A clone of the Apollo app, created as a demo project during my training at NandalalaInfotech.
@@ -105,6 +108,11 @@ To run this portfolio project locally, follow the steps below:
 ### Prerequisites
 - npm install
 - npm start
+
+## For icons npm install
+@fortawesome/free-solid-svg-icons
+@fortawesome/free-brands-svg-icons
+@fortawesome/react-fontawesome
 
 ### Steps
 1. Clone the repository
