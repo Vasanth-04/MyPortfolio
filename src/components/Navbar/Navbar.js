@@ -37,7 +37,7 @@ const Navbar = ({ isDark, toggleDark }) => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed w-full z-50 transition-all duration-300 ${scrolled
-        ? 'bg-white bg-opacity-70  dark:bg-gray-900 dark:bg-opacity-70 backdrop-blur-lg shadow-lg'
+        ? 'bg-opacity-70 text-gray-300  dark:bg-gray-900 dark:bg-opacity-70 backdrop-blur-lg shadow-lg'
         : 'bg-transparent'
         }`}
     >
@@ -58,7 +58,7 @@ const Navbar = ({ isDark, toggleDark }) => {
                 to={item.to}
                 smooth={true}
                 duration={500}
-                className={`cursor-pointer text-lg ${scrolled ? 'text-purple-700' : 'bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text'} font-semibold hover:text-purple-500 dark:bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text dark:hover:text-purple-400 transition-colors`}
+                className={`cursor-pointer text-lg ${scrolled ? 'text-purple-700' : 'bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text'} font-semibold hover:text-purple-500 dark:bg-gradient-to-r from-purple-500 to-pink-500  bg-clip-text dark:hover:text-purple-400 transition-colors`}
               >
                 {item.title}
               </Link>
@@ -107,8 +107,8 @@ const Navbar = ({ isDark, toggleDark }) => {
                 smooth={true}
                 duration={500}
                 className={`block px-3 py-2 font-semibold ${isDark
-                    ? 'text-gray-300 hover:text-purple-400 dark:hover:text-purple-500'
-                    : 'text-gray-700 hover:text-purple-500 dark:hover:text-purple-400'
+                  ? 'text-gray-300 hover:text-purple-400 dark:hover:text-purple-500'
+                  : 'text-gray-700 hover:text-purple-500 dark:hover:text-purple-400'
                   } transition-colors`}
                 onClick={() => setIsOpen(false)}
               >
