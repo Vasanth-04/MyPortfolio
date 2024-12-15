@@ -31,7 +31,7 @@ const Hero = () => {
       {/* Particles Background */}
       <ParticlesBackground />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-12 sm:mt-0">
         {/* Grid Layout for Content and Image */}
         <div className="flex flex-col sm:flex-row gap-8 sm:gap-0 sm:justify-between align-center text-center  items-center">
           {/* Left Section: Content */}
@@ -41,25 +41,18 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500  bg-clip-text relative"
-              style={{
-                background: 'rgba(255, 255, 255, 0.1)',  // Semi-transparent background
-                backdropFilter: 'blur(10px)',  // Apply blur effect to the background
-                borderRadius: '10px',  // Optional: Add rounded corners
-                padding: '10px',  // Optional: Add some padding around the text
-              }}
-            // className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text"
-            >
-              <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text">
-                Hi, I'm Vasanth
-              </span>
-
+              className="text-4xl  md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text mt-4 sm:mt-0">
+              Hi, I'm Vasanth
             </motion.h1>
+            <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400 leading-relaxed py-2 dark:text-gray-300">
+              "Passionate web developer with a focus on creating responsive and user-friendly websites."
+            </p>
+
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="text-xl sm:text-2xl md:text-3xl mb-8 text-gray-100 dark:text-gray-300"
+              className="text-xl sm:text-2xl md:text-3xl mb-8 text-purple-900 dark:text-purple-800"
             >
               <TypeAnimation
                 sequence={[
