@@ -1,0 +1,9 @@
+[build]
+  base = "/"
+  publish = "public"
+  command = "npm run build"  # If you're using a build command like for React
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
