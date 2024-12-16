@@ -42,7 +42,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               className="text-4xl  md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text mt-4 sm:mt-0">
-              Hi, I'm A.Vasanth
+              Hi, I'm Vasanth.A
             </motion.h1>
             <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-400 leading-relaxed py-2 dark:text-gray-300">
               "Passionate web developer with a focus on creating responsive and user-friendly websites."

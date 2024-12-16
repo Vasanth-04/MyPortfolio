@@ -34,7 +34,7 @@ const Projects = () => {
     },
     {
       title: 'RBAC-dashboard',
-      description: 'A simple calculator app with basic functionalities, built using HTML, CSS, and JavaScript.',
+      description: 'RBAC stands for Role-Based Access Control, a method used in systems to restrict access to resources based on users roles.',
       image: '/images/dashboard.jpg',
       tags: ['Html', 'Css', 'Boostrap', 'Js'],
     },
