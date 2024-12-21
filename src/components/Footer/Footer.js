@@ -23,7 +23,7 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
               <FontAwesomeIcon icon={faTwitter} size="lg" />
             </a>
-            <a href="mailto:your-email@example.com" className="hover:text-indigo-400 transition-colors">
+            <a href="mailto:vasanth4013@gmail.com" className="hover:text-indigo-400 transition-colors">
               <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </a>
             <a href="tel:+93446534013" className="hover:text-indigo-400 transition-colors">
